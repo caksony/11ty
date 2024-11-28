@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Njajal 11ty</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <!-- <header>
@@ -23,8 +24,22 @@ ayo rek</p>
 <p><li><a href="/blogs/post-kedua/">Post kedua</a></li></p>
 <p><li><a href="/blogs/post-ketiga/">Post ketiga</a></li></p>
 </ul>
+    <img width="200px" src="" alt="">
   </main>
 
   <h1>ini FOOTER njk</h1>
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", (user) => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+  
 </body>
 </html>

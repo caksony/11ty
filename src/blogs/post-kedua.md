@@ -1,6 +1,5 @@
 ---
-title: Post kedua
-image: /img/girl.webp
+title: Post kedua kalinya
+image: /img/bird2.jpeg
 ---
-
-Konten post kedua
+Konten post kedua kalinya

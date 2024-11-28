@@ -1,5 +1,5 @@
 ---
-title: Post pertama
+title: Post ketiga
 ---
 
-konten post pertama
+konten post ketiga
